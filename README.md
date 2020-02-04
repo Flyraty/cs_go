@@ -1,4 +1,4 @@
-# Conti
+# continuous learning about computer-science
 
 ## Algorithm
 
