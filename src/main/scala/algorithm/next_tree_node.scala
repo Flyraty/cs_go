@@ -9,7 +9,7 @@ package algorithm
 
 object next_tree_node {
 
-  case class Tree(var left:Tree, var right:Tree, var parent:Tree, var value:Int)
+  case class Tree(var left:Tree, var right:Tree, var parent:Tree, var value:Int) // TODO: fix  stackOverError
 
 
   def findNextNode(node:Tree):Any = {
