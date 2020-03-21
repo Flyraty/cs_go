@@ -20,9 +20,9 @@ object array_find {
     breakable {
       while (r <= m - 1 && c >= 0) {
         target match {
-          case target if (target > matrix(r)(c)) => r = r + 1
-          case target if (target < matrix(r)(c)) => c = c - 1
-          case target if (target == matrix(r)(c)) => bool = true; break
+          case a if (a > matrix(r)(c)) => r = r + 1
+          case b if (b < matrix(r)(c)) => c = c - 1
+          case j if (j == matrix(r)(c)) => bool = true; break
         }
       }
     }
